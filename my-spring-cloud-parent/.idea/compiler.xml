@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-provider" />
+        <module name="integral-api" />
+        <module name="integral-service" />
+        <module name="inventory-api" />
+        <module name="inventory-service" />
+        <module name="nacos-consumer" />
+        <module name="order-service" />
+        <module name="wms-api" />
+        <module name="wms-server" />
+        <module name="zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="distributed-demo" options="-parameters" />
+      <module name="feign-provider" options="-parameters" />
+      <module name="integral-api" options="-parameters" />
+      <module name="integral-service" options="-parameters" />
+      <module name="inventory-api" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="my-spring-cloud-feign" options="-parameters" />
+      <module name="my-spring-cloud-parent" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="wms-api" options="-parameters" />
+      <module name="wms-server" options="-parameters" />
+      <module name="zuul-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

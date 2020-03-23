@@ -1,0 +1,22 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: nacos-provide
+  profiles:
+    active: loc
+
+---
+##\u672C\u5730\u73AF\u5883
+spring:
+  profiles: loc
+  cloud:
+    nacos:
+      discovery:
+        server-addr: test-nacos.iguming.net:8848
+        namespace: d2a2a003-9094-40a9-8469-5029d9802cd4
+#      config:
+#        enabled: false
+#        file-extension: yaml
+#        server-addr: test-nacos.iguming.net:8848
+#        namespace: d2a2a003-9094-40a9-8469-5029d9802cd4
